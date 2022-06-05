@@ -13,7 +13,7 @@ spec:
         app: meikao
     spec:
       containers:
-      - image: okteto.dev/mei:latest
+      - image: okteto.dev/meikao:latest
         name: meikao
         ports:
         - containerPort: 8080
@@ -23,12 +23,12 @@ spec:
         - name: ProxySite
           value: "$ProxySite"
         - name: Vless_UUID
-          value: "$Vless_UUID"
+          value: "cd2b731f-c4bd-4114-b81f-f381e89f0414"
         - name: Vless_Path
-          value: "$Vless_Path"
+          value: "/s2335"
         - name: Vmess_UUID
-          value: "$Vmess_UUID"
+          value: "cd2b731f-c4bd-4114-b81f-f381e89f0414"
         - name: Vmess_Path
-          value: "$Vmess_Path"
+          value: "/s2446"
         - name: Share_Path
-          value: "$Share_Path"
+          value: "Shares2335"
