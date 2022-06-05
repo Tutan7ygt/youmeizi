@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: mei
+  name: meikao
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: mei
+      app: meikao
   template:
     metadata:
       labels:
-        app: mei
+        app: meikao
     spec:
       containers:
       - image: okteto.dev/mei:latest
-        name: mei
+        name: meikao
         ports:
         - containerPort: 8080
         env:
