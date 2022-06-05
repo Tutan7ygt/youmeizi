@@ -23,11 +23,11 @@ spec:
         - name: ProxySite
           value: "canva.com"
         - name: Vless_UUID
-          value: "cd2b731f-c4bd-4114-b81f-f381e89f0414"
+          value: "d2356074-81fa-40df-977d-d0e3df5c4dc0"
         - name: Vless_Path
           value: "/s2335"
         - name: Vmess_UUID
-          value: "cd2b731f-c4bd-4114-b81f-f381e89f0414"
+          value: "d2356074-81fa-40df-977d-d0e3df5c4dc0"
         - name: Vmess_Path
           value: "/s2446"
         - name: Share_Path
